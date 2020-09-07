@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Oswald:wght@400;500&family=Poppins:wght@300;500;700&display=swap');
+
+#body{   
+    background-color: rgb(31, 36, 36);
+    text-align: center;
+    width: 86%;
+    margin: 100px 7% 100px 7%;
+    height: fit-content;
+    font-family: 'Kumbh Sans', sans-serif;
+    padding-bottom: 100px;
+    border-radius: 5px;
+animation-name: body;
+animation-delay: 0ms;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+}
+
+@keyframes body{
+    0%{box-shadow: 0 0 100px black;}
+    12%{box-shadow: 0 0 100px rgb(255, 0, 0);}
+    24%{box-shadow: 0 0 100px rgb(117, 252, 8);}
+    37%{box-shadow: 0 0 100px rgb(243, 0, 243);}
+    50%{box-shadow: 0 0 100px rgb(0, 174, 255);}
+    65%{box-shadow: 0 0 100px rgb(8, 4, 241);}
+    83%{box-shadow: 0 0 100px rgb(217, 255, 0);}
+    100%{box-shadow: 0 0 100px rgb(255, 255, 255);}
+}
+
+#intro{
+width: 40%;
+display: inline-flex;
+flex-direction: column;
+margin-top: 100px;
+color: white;
+
+}
+
+
+
+#search {
+    color: white;
+    width: 501px;
+    height: 65px;
+    align-self: center;
+    background-color: gray;
+    border-radius: 3px;
+    box-shadow: 0 0 40px black;
+}
+
+#search::placeholder{
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+    font-family: 'Kumbh Sans', sans-serif;
+
+}
+
+#main{
+    background-color: white;
+    box-shadow: 0 0 169px black;
+        border-radius: 2px;
+    width: 80%;
+    margin: 100px 10% 30px 10%;
+    height: 70%;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 70px;
+
+}
+
+#heading{
+    
+    padding-top: 60px;
+    font-weight: bold;
+}
+
+
+
+#buttons{
+    font-family:  sans-serif;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 665px;
+    margin-top: 50px;
+}
+
+.buttons{
+    padding: 20px 35px;
+    background-color: white;
+    border: 1px solid rgb(223, 223, 223);
+    width: 150px;
+    box-shadow: 0 0 30px lightgrey
+}
+
+#left2buttons{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+#right2buttons{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+
+}
+
+#helptypes{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 665px;
+}
+
+#left2types{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+font-weight: 500;
+text-align: left;
+}
+
+#right2types{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    font-weight: 500;
+text-align: left;
+}
+
+h4{
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.lists{
+    width: 160px;
+}
+
+.typelist{
+    list-style: none;
+    margin-left: -40px;
+    font-size: 12px;
+    
+}
+
+#contact{
+
+    background-color: rgb(230, 235, 243);
+    width: 80%;
+    height: 180px;
+    margin: 80px 10% 50px 10%;
+    box-shadow: 0 0 33px lightslategrey;
+}
+
+#unhappy{
+    padding-top: 30px;
+}
+
+.contact{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px 10px 15px;
+    margin-top: 5px;
+    border-radius: 3px;
+    box-shadow: 0 0 100 ;
+}
+
+@media screen and (max-width:1000px){
+    #buttons{
+        font-family:  sans-serif;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    #helptypes{
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;
+    }
+
+    h4{
+        align-self: flex-end;
+    }
+
+ 
+
+    #left2buttons{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    
+    }
+    
+    #right2buttons{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    
+    }
+    #left2types{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    font-weight: 500;
+    text-align: left;
+    }
+    
+    #right2types{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        font-weight: 500;
+    text-align: left;
+    }
+
+}
+
+@media screen and (max-width:830px){
+
+   #intro{
+       width: 80%;
+   }
+
+   #search{
+       width: 100%;
+   }
+}
+
+@media screen and (max-width:600px){
+    #left2buttons{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 90%;
+    }
+    
+    #right2buttons{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 90%;
+    
+    }
+    #left2types{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 90%;
+    font-weight: 500;
+    text-align: left;
+    }
+    
+    #right2types{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 90%;
+        font-weight: 500;
+    text-align: left;
+    }
+
+    .buttons{
+        margin-top: 20px;
+    }
+
+    .lists{
+        margin-top: 20px;
+        text-align: center;
+        width: 100%;
+    }
+
+    h4 {
+        text-transform: uppercase;
+        font-size: 22px;
+    }
+
+    .typelist {
+        list-style: none;
+        margin-left: -40px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:350px){
+
+    h4 {
+        text-transform: uppercase;
+        font-size: 19px;
+    }
+
+    .typelist {
+        list-style: none;
+        margin-left: -40px;
+        font-size: 17px;
+    }
+}
+}
